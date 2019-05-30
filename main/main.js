@@ -81,12 +81,12 @@ module.exports = function main(num) {
 			bottom.push(d);
 		}
 	}
-	up.push("\n");
-	mid.push("\n");
-	bottom.push("\n");
 	var str1 = up.join(" ");
+	str1 = str1 + "\n";
 	var str2 = mid.join(" ");
+	str2 = str2 + "\n";
 	var str3 = bottom.join(" ");
+	str3 = str3 + "\n";
 	var r = str1 + str2 + str3;
 	return r;
 };
