@@ -1,5 +1,6 @@
 module.exports = function main(num) {
     console.log("Debug Info");
+	num = parseInt(num);
 	var a = "._.";
 	var b = "...";
 	var c = "|.|";
